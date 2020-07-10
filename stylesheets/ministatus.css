@@ -62,3 +62,9 @@ TD.hostTotals          { font-size: 9pt; text-align: center; background-color: #
 .miniStatusUP          { font-size: 9pt; color: #000000; background-color: #66ffee; text-align: center; }
 .miniStatusDOWN        { font-size: 9pt; color: #000000; background-color: #f88888; text-align: center; }
 .miniStatusUNREACHABLE { font-size: 9pt; color: #000000; background-color: #ffbb55; text-align: center; }
+
+td[class^="miniStatus"] a { font-size: 8pt; color: #000000; }
+td.statusEven a[class^="status"]        { color: #000000; }
+td.statusOdd a[class^="status"]         { color: #000000; }
+td[class^="hostTotals"] { color: #000000; }
+

@@ -85,6 +85,7 @@ td.hostTotals          { font-size: 8pt; text-align: center; background-color: #
 td[class^="miniStatus"] a { font-size: 8pt; color: #000000; }
 td.statusEven a[class^="status"]	{ color: #000000; }
 td.statusOdd a[class^="status"]		{ color: #000000; }
+td[class^="hostTotals"] { color: #000000; }
 
 /* page number styles, added 2/01/2012 -MG */
 #top_page_numbers { float:right;} 
