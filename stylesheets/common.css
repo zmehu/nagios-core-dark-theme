@@ -295,14 +295,18 @@ th.data       { font-size: 9pt; text-align: left; padding: 0 3px 0 3px; border-b
 
 .popupText { font-size: 8pt; background-color: #eeeeaa; border: 1px solid #777777; padding: 10 10 10 10; }
 
-.hostImportantProblem      { font-size: 8pt; background-color: #88aadd; border: 1px solid #aaaaaa; padding: 0 5 0 5; }
-.hostUnimportantProblem    { font-size: 8pt; background-color: #aaccff; border: 1px solid #888888; padding: 0 5 0 5; }
+.hostImportantProblem      { font-size: 8pt; background-color: #88aadd; color: #000000; border: 1px solid #aaaaaa; padding: 0 5 0 5; }
+.hostUnimportantProblem    { font-size: 8pt; background-color: #aaccff; color: #000000; border: 1px solid #888888; padding: 0 5 0 5; }
 
-.serviceImportantProblem   { font-size: 8pt; background-color: #88aadd; border: 1px solid #aaaaaa; padding: 0 5 0 5; }
-.serviceUnimportantProblem { font-size: 8pt; background-color: #aaccff; border: 1px solid #888888; padding: 0 5 0 5; }
+.serviceImportantProblem   { font-size: 8pt; background-color: #88aadd; color: #000000; border: 1px solid #aaaaaa; padding: 0 5 0 5; }
+.serviceUnimportantProblem { font-size: 8pt; background-color: #aaccff; color: #000000; border: 1px solid #888888; padding: 0 5 0 5; }
 
-.outageImportantProblem    { font-size: 8pt; background-color: #88aadd; border: 1px solid #aaaaaa; padding: 0 5 0 5; }
-.outageUnimportantProblem  { font-size: 8pt; background-color: #aaccff; border: 1px solid #888888; padding: 0 5 0 5; }
+.outageImportantProblem    { font-size: 8pt; background-color: #88aadd; color: #000000; border: 1px solid #aaaaaa; padding: 0 5 0 5; }
+.outageUnimportantProblem  { font-size: 8pt; background-color: #aaccff; color: #000000; border: 1px solid #888888; padding: 0 5 0 5; }
+
+td[class$=Problem] a {
+  color: #000000;
+}
 
 
 /* Some nagios configurations have side.html rather than side.php and define */
