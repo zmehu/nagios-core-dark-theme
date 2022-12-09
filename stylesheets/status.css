@@ -33,7 +33,7 @@ td.statusOdd a { font-size: 8pt; color: #FFFFFF }
 .statusHOSTUNREACHABLE      { font-size: 8pt; color: #000000; background-color: #ffddaa; line-height: 150%; padding: 0 4 0 4; }
 .statusHOSTUNREACHABLEACK   { font-size: 8pt; color: #000000; background-color: #ffddaa; line-height: 150%; padding: 0 4 0 4; }
 .statusHOSTUNREACHABLESCHED { font-size: 8pt; color: #000000; background-color: #ffddaa; line-height: 150%; padding: 0 4 0 4; }
-td [class^=statusHOSTDOWN] a,td [class^=statusHOSTUN] a,td [class^=statusHOSTPENDING] a {
+td [class^=statusHOST] a {
   color: #000000;
 }
 
