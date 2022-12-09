@@ -43,7 +43,7 @@ DIV.downtimeNav { font-size: 10pt; text-align: center; }
 A.downtimeNav   { font-size: 10pt; }
 
 TABLE.downtime { font-size: 10pt; background-color: #202020; padding: 2; }
-TH.downtime    { font-size: 9pt; text-align: left; padding: 0 3px 0 3px; border-bottom: 1px solid #777777; color: #333333; }
+TH.downtime    { font-size: 9pt; text-align: left; padding: 0 3px 0 3px; border-bottom: 1px solid #777777; color: #777777; }
 .downtimeOdd   { font-size: 9pt; background-color: #202020; }
 .downtimeEven  { font-size: 9pt; background-color: #202020; }
 
@@ -77,7 +77,7 @@ TH.downtime    { font-size: 9pt; text-align: left; padding: 0 3px 0 3px; border-
 
 .queueTitle    { font-size: 12pt; text-align: center; font-weight: bold; }
 TABLE.queue    { font-size: 9pt; padding: 0; }
-TH.queue       { font-size: 9pt; text-align: left; padding: 0 3px 0 3px; border-bottom: 1px solid #777777; color: #333333; }
+TH.queue       { font-size: 9pt; text-align: left; padding: 0 3px 0 3px; border-bottom: 1px solid #777777; color: #777777; }
 .queueOdd      { font-size: 9pt; background-color: #202020; padding: 0 4 0 4; }
 .queueEven     { font-size: 9pt; background-color: #202020; padding: 0 4 0 4; }
 .queueENABLED  { font-size: 9pt; background-color: #88d066; border: 1px solid #777777; padding: 0 4 0 4; }
