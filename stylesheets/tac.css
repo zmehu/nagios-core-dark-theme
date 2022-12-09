@@ -10,26 +10,26 @@
 .title     { font-weight: bold; }
 .titleItem { font-size: 8pt; font-weight: bold; }
 
-td.perfTitle { font-size: 10pt; font-weight: bold; background-color: #d0d0d0; border: 1px solid #aaaaaa; }
-.perfBox     { background-color: #eeeeee; border: 1px solid #cccccc; }
+td.perfTitle { font-size: 10pt; font-weight: bold; background-color: #000000; border: 1px solid #aaaaaa; }
+.perfBox     { background-color: #000000; border: 1px solid #cccccc; }
 .perfItem    { font-size: 8pt; font-weight: bold; }
 .perfValue   { font-size: 8pt; }
 
-.healthTitle { font-weight: bold; font-size: 10pt; background-color: #d0d0d0; border: 1px solid #aaaaaa; }
+.healthTitle { font-weight: bold; font-size: 10pt; background-color: #000000; border: 1px solid #aaaaaa; }
 .healthBox   { }
 .healthItem  { font-size: 10pt; font-weight: bold; }
 .healthBar   { background-color: grey; padding: 2 4 2 4; }
 
-.outageTitle     { font-weight: bold; background-color: #d0d0d0; border: 1px solid #aaaaaa; }
+.outageTitle     { font-weight: bold; background-color: #000000; border: 1px solid #aaaaaa; }
 .outageHeader    { font-weight: bold; border-bottom: 1px solid #aaaaaa; }
 
-.hostTitle       { font-weight: bold; background-color: #d0d0d0; border: 1px solid #aaaaaa; }
+.hostTitle       { font-weight: bold; background-color: #000000; border: 1px solid #aaaaaa; }
 td.hostHeader    { font-weight: bold; border-bottom: 1px solid #aaaaaa; }
 
-.serviceTitle    { font-weight: bold; background-color: #d0d0d0; border: 1px solid #aaaaaa; }
+.serviceTitle    { font-weight: bold; background-color: #000000; border: 1px solid #aaaaaa; }
 td.serviceHeader { font-weight: bold; border-bottom: 1px solid #aaaaaa; }
 
-.featureTitle    { font-weight: bold; background-color: #d0d0d0; border: 1px solid #aaaaaa; }
+.featureTitle    { font-weight: bold; background-color: #000000; border: 1px solid #aaaaaa; }
 td.featureHeader { font-weight: bold; border-bottom: 1px solid #aaaaaa; }
 
 .featureEnabled  { text-align: center; background-color: #ccffcc; }
@@ -73,3 +73,7 @@ td.featureHeader { font-weight: bold; border-bottom: 1px solid #aaaaaa; }
 .featureItemDisabledPassiveServiceChecks { font-size: 8pt; background-color: #f88888; border: 1px solid #777777; }
 .featureItemEnabledPassiveHostChecks     { font-size: 8pt; background-color: #88d066; border: 1px solid #777777; }
 .featureItemDisabledPassiveHostChecks    { font-size: 8pt; background-color: #f88888; border: 1px solid #777777; }
+
+td [class^=featureItem],td [class^=featureItem] a {
+  color: #000000;
+}
